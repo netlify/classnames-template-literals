@@ -1,0 +1,41 @@
+{
+  "name": "classnames-template-literals",
+  "description": "Small utility to format long classnames with template literals",
+  "version": "1.0.0",
+  "author": "Netlify",
+  "contributors": [
+    "Charlie Gerard <charlie@netlify.com> (https://charliegerard.dev)"
+  ],
+  "bugs": {
+    "url": "https://github.com/netlify/classnames-template-literals/issues"
+  },
+  "main": "dist/classnames-template-literals.cjs.js",
+  "module": "dist/classnames-template-literals.esm.js",
+  "browser": "dist/classnames-template-literals.umd.js",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^11.0.1",
+    "@rollup/plugin-node-resolve": "^7.0.0",
+    "jest": "^26.6.3",
+    "rollup": "^1.29.0"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "test": "jest",
+    "pretest": "npm run build"
+  },
+  "homepage": "https://github.com/netlify/classnames-template-literals#readme",
+  "keywords": [
+    "CSS",
+    "netlify",
+    "Tailwind"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/netlify/classnames-template-literals.git"
+  },
+  "files": [
+    "dist"
+  ]
+}
