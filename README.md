@@ -48,7 +48,7 @@ Example:
 ## Installation
 
 ```javascript
-npm install classnames-template-literals
+npm install @netlify/classnames-template-literals
 ```
 
 ## Usage
@@ -56,7 +56,7 @@ npm install classnames-template-literals
 Wrap your classnames inside `ctl`.
 
 ```javascript
-import ctl from "classnames-template-literals";
+import ctl from "@netlify/classnames-template-literals";
 
 const buttonClasses = ctl(`
     bg-black
@@ -69,7 +69,7 @@ const buttonClasses = ctl(`
 You can also use conditional classes:
 
 ```javascript
-import ctl from "classnames-template-literals";
+import ctl from "@netlify/classnames-template-literals";
 
 const buttonClasses = ctl(`
     bg-black
