@@ -12,6 +12,7 @@
   "main": "dist/classnames-template-literals.cjs.js",
   "module": "dist/classnames-template-literals.esm.js",
   "browser": "dist/classnames-template-literals.umd.js",
+  "typings": "main.d.ts",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^11.0.1",
     "@rollup/plugin-node-resolve": "^7.0.0",
