@@ -1,7 +1,7 @@
 {
   "name": "@netlify/classnames-template-literals",
   "description": "Small utility to format long classnames with template literals",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Netlify",
   "contributors": [
     "Charlie Gerard <charlie@netlify.com> (https://charliegerard.dev)"
