@@ -4,7 +4,8 @@
   "version": "1.0.3",
   "author": "Netlify",
   "contributors": [
-    "Charlie Gerard <charlie@netlify.com> (https://charliegerard.dev)"
+    "Charlie Gerard <charlie@netlify.com> (https://charliegerard.dev)",
+    "EJ Mason <ej.mason@netlify.com> (https://www.ejmason.com)"
   ],
   "bugs": {
     "url": "https://github.com/netlify/classnames-template-literals/issues"
