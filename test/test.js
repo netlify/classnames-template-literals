@@ -22,3 +22,13 @@ test("should handle template literals", () => {
   expect(ctl(classname)).toBe("bg-black text-small mt-2 mb-3");
   expect(ctl(classname)).not.toBe("bg-black text-small mt-2 mb-3 ml-3");
 });
+
+test('should not remove `undefined`, `false`, or `true` if it is part of a classname', ()=> {
+	const className = `
+		bg-black
+		color-true-blue
+		arbitrary-false
+		arbitrary-undefined
+	`
+	expect(ctl(className)).toBe("bg-black color-true-blue arbitrary-false arbitrary-undefined")
+})
