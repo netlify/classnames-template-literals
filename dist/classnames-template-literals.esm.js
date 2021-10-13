@@ -1,6 +1,6 @@
 function ctl(template) {
   return template
-    .replace(/(undefined|false|true)/g, '')
+    .replace(/\s(undefined|false|true)\s/g, '')
     .replace(/\s+/g, ' ')
     .trim()
 }
