@@ -5,14 +5,10 @@
 }(this, (function () { 'use strict';
 
   function ctl(template) {
-    var trimmedClassnames = template.replace(/\s+/gm, " ");
-    var formattedClassnames = trimmedClassnames
-      .split(" ")
-      .filter((c) => c !== "false" && c !== "true" && c !== "undefined")
-      .join(" ")
-      .trim();
-
-    return formattedClassnames;
+    return template
+      .replace(/(undefined|false|true)/g, '')
+      .replace(/\s+/g, ' ')
+      .trim()
   }
 
   return ctl;
